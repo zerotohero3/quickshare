@@ -1,0 +1,34 @@
+{
+  "name": "quickshare",
+  "version": "1.0.0",
+  "description": "Aplicação de transferência de arquivos P2P em tempo real",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "webrtc",
+    "websocket",
+    "p2p",
+    "file-transfer"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.3",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.3",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "socket.io": "^4.8.1",
+    "uuid": "^9.0.1",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
